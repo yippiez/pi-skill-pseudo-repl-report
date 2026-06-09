@@ -2,11 +2,11 @@
 
 Standalone Pi skill package for REPL-style pipeline/report answers.
 
-The included `repl` skill makes the agent answer codebase questions as a call-stack of concrete commands, ending with a short direct answer.
+The included `pseudo-repl-report` skill makes the agent answer codebase questions as a call-stack of concrete commands, ending with a short direct answer.
 
 ## Includes
 
-- `skills/repl/SKILL.md` — REPL call-stack answer format and rules.
+- `skills/pseudo-repl-report/SKILL.md` — REPL call-stack answer format and rules.
 
 ## Install from Git
 
@@ -25,7 +25,7 @@ pi install -l git:github.com/yippiez/pi-skill-pseudo-repl-report
 ## Package layout
 
 ```text
-skills/repl/SKILL.md
+skills/pseudo-repl-report/SKILL.md
 package.json
 README.md
 ```

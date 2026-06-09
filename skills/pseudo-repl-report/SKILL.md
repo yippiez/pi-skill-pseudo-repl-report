@@ -1,9 +1,9 @@
 ---
-name: repl
+name: pseudo-repl-report
 description: Use when the user asks a "how do I..." or "what command..." question about the codebase. Responds with a REPL-style call-stack answer: a sequence of concrete commands (run, grep, edit, read, etc.) to execute, one per frame, from inner to outer, mirroring a debugger backtrace.
 ---
 
-# REPL call-stack mode
+# Pseudo REPL report mode
 
 When the user gives you a question about the codebase (e.g. "how do I add a new field?", "where is X called from?", "what command runs Y?"), answer with a **call-stack trace of commands** rather than prose.
 

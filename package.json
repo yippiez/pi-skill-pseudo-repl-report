@@ -1,7 +1,7 @@
 {
   "name": "pi-skill-pseudo-repl-report",
   "version": "0.1.0",
-  "description": "Pi skill for REPL-style call-stack answers to codebase questions.",
+  "description": "Pi skill for pseudo-REPL call-stack answers to codebase questions.",
   "type": "module",
   "keywords": [
     "pi-package",
