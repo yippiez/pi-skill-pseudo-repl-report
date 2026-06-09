@@ -1,0 +1,26 @@
+{
+  "name": "pi-skill-pseudo-repl-report",
+  "version": "0.1.0",
+  "description": "Pi skill for REPL-style call-stack answers to codebase questions.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "skills",
+    "repl",
+    "report"
+  ],
+  "license": "MIT",
+  "files": [
+    "skills",
+    "README.md"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
