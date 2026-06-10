@@ -1,31 +1,35 @@
-# pi-skill-pseudo-repl-report
+# pi-skill-html-report
 
-Standalone Pi skill package for REPL-style pipeline/report answers.
+Standalone Pi skill package for creating polished HTML reports with screenshots, verification notes, and clickable WSL/Windows links.
 
-The included `pseudo-repl-report` skill makes the agent answer codebase questions as a call-stack of concrete commands, ending with a short direct answer.
+The included `html-report` skill is for tasks where the user asks to verify UI/terminal changes, produce before/after screenshots, or save a reviewable report in `/tmp`.
 
 ## Includes
 
-- `skills/pseudo-repl-report/SKILL.md` — REPL call-stack answer format and rules.
+- `skills/html-report/SKILL.md` — main report workflow and style rules.
+- `skills/html-report/OUTPUT_LINK.md` — how to present Linux, `file://`, and Windows WSL links.
+- `skills/html-report/examples/report.css` — reusable dark report CSS.
+- `skills/html-report/examples/index.html` — minimal report template.
 
 ## Install from Git
 
-Global install:
-
 ```bash
-pi install git:github.com/yippiez/pi-skill-pseudo-repl-report
+pi install git:github.com/yippiez/pi-skill-html-report
 ```
 
 Local/project install:
 
 ```bash
-pi install -l git:github.com/yippiez/pi-skill-pseudo-repl-report
+pi install -l git:github.com/yippiez/pi-skill-html-report
 ```
 
 ## Package layout
 
 ```text
-skills/pseudo-repl-report/SKILL.md
+skills/html-report/SKILL.md
+skills/html-report/OUTPUT_LINK.md
+skills/html-report/examples/report.css
+skills/html-report/examples/index.html
 package.json
 README.md
 ```

@@ -1,14 +1,15 @@
 {
-  "name": "pi-skill-pseudo-repl-report",
+  "name": "pi-skill-html-report",
   "version": "0.1.0",
-  "description": "Pi skill for pseudo-REPL call-stack answers to codebase questions.",
+  "description": "Pi skill for creating polished HTML verification reports with screenshots and WSL-friendly links.",
   "type": "module",
   "keywords": [
     "pi-package",
     "pi",
     "skills",
-    "repl",
-    "report"
+    "html",
+    "report",
+    "screenshots"
   ],
   "license": "MIT",
   "files": [
