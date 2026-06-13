@@ -1,3 +1,14 @@
+# Moved to pchain
+
+This repository has moved into the pchain monorepo:
+
+- https://github.com/yippiez/pchain
+- Pi implementation: `pchain/pi/`
+
+This repo is kept only for history and compatibility.
+
+---
+
 # pi-skill-html-report
 
 Standalone Pi skill package for creating polished HTML reports with screenshots, verification notes, and clickable WSL/Windows links.
